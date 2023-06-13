@@ -1,5 +1,4 @@
-using LinkConnCounterWithRapidAPI.Controllers;
-using LinkConnCounterWithRapidAPI.Services;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +18,7 @@ builder.Services.AddHttpsRedirection(options =>
 builder.Services.AddScoped<PhoneNumberValidateService>();
 builder.Services.AddScoped<SmsService>();
 builder.Services.AddScoped<LinkedinService>();
+builder.Services.AddScoped<WeatherService>();
 
 var app = builder.Build();
 

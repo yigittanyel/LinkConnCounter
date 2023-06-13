@@ -1,7 +1,4 @@
-﻿using System.Net.Http;
-using System.Threading.Tasks;
-
-public class SmsService
+﻿public class SmsService
 {
     private readonly HttpClient _httpClient;
     private readonly IConfiguration _configuration;
