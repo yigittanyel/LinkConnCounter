@@ -1,11 +1,4 @@
-﻿using LinkConnCounterWithRapidAPI.Models;
-using LinkConnCounterWithRapidAPI.Services;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Net.Http.Headers;
-using System.Net.Mime;
-using System.Reflection.PortableExecutable;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace LinkConnCounterWithRapidAPI.Controllers
 {

@@ -1,6 +1,4 @@
-﻿using LinkConnCounterWithRapidAPI.Controllers;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace LinkConnCounterWithRapidAPI.Controllers
 {
