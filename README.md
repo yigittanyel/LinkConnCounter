@@ -1,2 +1,2 @@
 ## LinkConnCounter
-Getting information about some services (linkedin etc.) using with rapid api
+Getting information about some services (linkedin, weather forecast, phone etc.) using with rapid api
